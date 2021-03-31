@@ -35,6 +35,9 @@ h6{
     font-family: Poppins;
     margin-top: -20px;
 }
+.header_title{
+    margin-top: -20px;
+}
 #subscribe{
    font-family:  Work Sans;    
 }
@@ -42,9 +45,16 @@ h6{
     width: 1900px;
     height: 650px;      
     border: rgb(222, 43, 36);
-    background-color: rgb(222, 43, 36);   
-  
+    background-color: rgb(222, 43, 36);    
     margin-top: -20px;
+}
+.dash{
+    margin: auto;
+    margin-top: -10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 20px;
 }
 #table_photos{
    
@@ -139,7 +149,7 @@ td{
     color: black;
     font-family: Inter;
 }
-#cancel{   
+.cancel{   
     margin-left: 580px;    
     margin-top: -20px;
     width: 30px;
@@ -152,12 +162,15 @@ td{
     border-style: solid;    
     border-width: 2px;
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     border-color:rgb(255, 255, 255);
     position: absolute;
     
      
+ }
+ #cancel-font{
+     margin-top: 6px;
  }
 #name:hover{
     border-width: 2px;
