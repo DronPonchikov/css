@@ -97,8 +97,7 @@ td{
     width: 1900px;
     height: 650px;
     border: rgb(18, 135, 191);   
-    background-color: rgb(18, 135, 191);   
-  z-index: 1;
+    background-color: rgb(18, 135, 191);    
     margin-top: -20px;
 }
 #circle {
@@ -169,7 +168,8 @@ td{
     
      
  }
- #cancel-font{
+#cancel-font{
+    
      margin-top: 6px;
  }
 #name:hover{
@@ -226,13 +226,12 @@ td{
 }
 .submit{
     margin: auto;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
     width: 200px;
     height: 50px;    
-    border-style: solid;
-    border-radius: 2px;
-    border-width: 1px;
+    border-style: solid;   
+    border-radius: 5px;
+    border-color:  rgb(222, 43, 36);
     background-color: rgb(222, 43, 36);
     font-size: 15px;
     font-family: Work Sans;
