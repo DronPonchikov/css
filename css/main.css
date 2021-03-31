@@ -88,7 +88,7 @@ td{
     height: 650px;
     border: rgb(18, 135, 191);   
     background-color: rgb(18, 135, 191);   
-  
+  z-index: 1;
     margin-top: -20px;
 }
 #circle {
@@ -121,36 +121,41 @@ td{
     border-bottom: 40px solid white;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    z-index: 3;
+   
 }
-#white_rectangle{
-    z-index: 4;
-    margin: auto;  
+#white_rectangle{    
+    
+    margin: auto;    
+    margin-top: 20px; 
     width: 600px;
     height: 350px;
     background-color: white;
+    position: relative;
 }
 
 #ad{
     padding:20px;
+    padding-bottom: 20px;
     color: black;
     font-family: Inter;
 }
-#cancel{
-    margin: auto;
-    margin-right: 640px;
+#cancel{   
+    margin-left: 580px;    
     margin-top: -20px;
-    z-index: 5;
-     width: 30px;
-     height: 30px;
-     background:rgb(222, 43, 36);  
-     -moz-border-radius: 60px;
-     -webkit-border-radius: 60px;    
-     border-radius: 60px;
-     font-family: Inter;
-     border-style: solid;    
-     border-width: 2px;
-     border-color:rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    background:rgb(222, 43, 36);  
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;    
+    border-radius: 60px;
+    font-family: Inter;
+    border-style: solid;    
+    border-width: 2px;
+    font-weight:bolder;
+    font-size: 20px;
+    color: white;
+    border-color:rgb(255, 255, 255);
+    position: absolute;
     
      
  }
